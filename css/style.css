@@ -94,6 +94,18 @@ body {
     display: flex;
     align-items: center;
 }
+
+#banner-interno {
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
 #banner p {
     margin: 10px;
 }
