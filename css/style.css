@@ -4,14 +4,17 @@
     --texto: #2f2f2f;
     --laranja: ##ff7200;
 }
-jjjjj
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
- 
+#logotipo img {
+    width: 150px;
+    height: auto;
+}
 body {
     font-family: 'Poppins', sans-serif;
     
