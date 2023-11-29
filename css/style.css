@@ -12,7 +12,7 @@
     text-decoration: none;
 }
 #logotipo img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 body {
@@ -20,7 +20,6 @@ body {
     
 }
 
- 
 #cabecalho {
     background: linear-gradient(45deg, #3D008B, #1A6AE2);
     display: flex;
@@ -29,16 +28,27 @@ body {
     padding-bottom: 10px;
     justify-content: space-between;
 }
+
+#nav{
+    display: flex;
+    align-items: center;
+}
  
 .container {
     max-width: 1140px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 #menu ul {
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    align-items: center;
 }
  
 #menu ul li {
@@ -58,10 +68,10 @@ body {
  
  
 .btn-secundario {
-    background-color: var(--secundario);
+    background-color: var(--primaria);
     padding: 5px 15px 5px 15px;
     border-radius: 5px;
-    color: #ffffff;
+    color: var(--texto);
 }
  
 #banner {
