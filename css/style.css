@@ -149,88 +149,26 @@ body {
 }
  
 /* Lista de Categorias */
- 
-.lista-card-categorias {
+
+.listaAnuncio{
     display: flex;
     gap: 40px;
 }
- 
-.lista-card-categorias img {
-    width: 100%;
+
+.img-produtos{
+    max-width: 100%;
     height: auto;
-    border-radius: 15px;
 }
- 
-.lista-card-categorias div {
-    position: relative;
-}
- 
-.lista-card-categorias .item span {
-    display: block;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    background-color: var(--laranja);
-    color: #fff;
-    padding: 0px 20px;
-    font-size: 12px;
-    border-radius: 15px;
-}
- 
-.lista-card-servicos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: space-between;
-}
- 
-.lista-card-servicos img {
-    width: 100%;
+
+.img-profissionais {
+    max-width: 100%;
     height: auto;
-    border-radius: 15px;
-    filter: brightness(70%);
-    -webkit-filter: brightness(70%);
 }
- 
-.card-servicos {
-    flex-grow: 1;
-    width: calc((100% / 3) - 30px);
-}
- 
-.card-foto {
-    position: relative;
-}
- 
-.card-foto-legenda {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.listaProfissionais{
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    align-items: center;
+    gap: 40px;
 }
- 
-.card-foto-preco {
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-}
- 
-.card-foto-categoria {
-    background-color: var(--label-categoria);
-    border-radius: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-}
- 
-.card-descricao-legenda {
-    display: flex;
-    justify-content: space-between;
-}
- 
+
 #rodape {
     margin-top: 50px;
     border-top: 2px solid #ccc;
