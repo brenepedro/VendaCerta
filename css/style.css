@@ -22,11 +22,6 @@ body {
 
 #cabecalho {
     background: linear-gradient(45deg, #3D008B, #1A6AE2);
-    display: flex;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    justify-content: space-between;
 }
 
 #nav{
@@ -119,7 +114,7 @@ body {
     border: none;
     width: 150px;
     border-radius: 20px;
-    color: #ffffff;
+    color: #2f2f2f;
  
 }
  
