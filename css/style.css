@@ -12,8 +12,10 @@
     text-decoration: none;
 }
 #logotipo img {
-    width: 200px;
+    width: 120px;
     height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -29,14 +31,18 @@ body {
     align-items: center;
 }
  
+#topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
 }
 
 #menu ul {
@@ -52,7 +58,7 @@ body {
 }
  
 #menu a {
-    color: var(--texto);
+    color: #fff500;
     font-weight: 500;
 }
  
@@ -98,6 +104,7 @@ body {
  
 #formPesquisa form input {
     height: 40px;
+    width: 500px;
     font-size: 1rem;
     border: none;
 }
@@ -118,13 +125,8 @@ body {
  
 }
  
-.lista-servicos-banner ul li {
-    display: inline-block;
-    margin: 10px;
-    font-size: 0.8em;
-    border: 1px dotted #fff;
-    padding: 5px 20px;
-    border-radius: 50px;
+.listaAnuncio ul li {
+    display: flex;
 }
  
 .secao-titulo {
