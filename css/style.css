@@ -1,8 +1,8 @@
 :root{
     --primaria: #fff500;
-    --secundaria: #2d66c4;
+    --secundaria: #1A6AE2;
     --texto: #2f2f2f;
-    --laranja: ##ff7200;
+    --laranja: #ff7200;
 }
 
 * {
@@ -11,6 +11,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 #logotipo img {
     width: 120px;
     height: auto;
@@ -19,8 +20,9 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
-    
 }
+
+/*Cabeçalho*/
 
 #cabecalho {
     background: linear-gradient(45deg, #3D008B, #1A6AE2);
@@ -64,7 +66,6 @@ body {
  
 #botao-menu-mobile {
     display: none;
-    /* Desaparecer elementos da tela */
 }
  
  
@@ -74,6 +75,14 @@ body {
     border-radius: 5px;
     color: var(--texto);
 }
+
+.btn-secundario:hover{
+    background-color: var(--laranja);
+    color: var(--primaria);
+    cursor: pointer;
+}
+
+/*Banner*/
  
 #banner {
     background-image: url("../img/banner.png");
@@ -122,33 +131,29 @@ body {
     width: 150px;
     border-radius: 20px;
     color: #2f2f2f;
- 
 }
- 
+
+#formPesquisa button:hover{
+    background-color: var(--laranja);
+    color: var(--primaria);
+    cursor: pointer;
+}
+
+/*Navegação*/
+
 .listaAnuncio ul li {
     display: flex;
 }
  
-.secao-titulo {
-    border-left: 5px solid var(--primaria);
+.secaotitulo {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 20px;
 }
- 
-.titulo {
-    display: flex;
-    justify-content: space-between;
+
+.titulo h2{
+    text-align: center;
 }
- 
-.titulo a {
-    color: var(--texto);
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
-}
- 
-/* Lista de Categorias */
 
 .listaAnuncio{
     display: flex;
@@ -169,10 +174,16 @@ body {
     gap: 40px;
 }
 
-#rodape {
+#mapa{
     margin-top: 50px;
-    border-top: 2px solid #ccc;
+}
+
+/*Rodapé*/
+
+
+#rodape {
     padding-top: 30px;
+    background-color: #1A6AE2;
 }
  
 #linha-rodape {
@@ -182,17 +193,16 @@ body {
  
 .coluna-rodape {
     width: 25%;
+    color: #ffffff;
+}
+
+.coluna-rodape h2{
+    color: #fff500;
 }
  
 .coluna-rodape a {
-    color: var(--texto);
+    color: white;
     margin-top: 5px;
-    display: block;
-}
- 
-.coluna-rodape a:hover {
-    color: var(--primaria);
-    font-weight: 500;
 }
  
 .coluna-rodape ul {
@@ -211,7 +221,7 @@ body {
 }
  
 .rede-social a {
-    background-color: #ededed;
+    background-color: black;
     font-size: 24px;
     width: 50px;
     line-height: 50px;
