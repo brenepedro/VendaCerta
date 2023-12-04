@@ -265,3 +265,55 @@ body {
     padding-bottom: 15px;
     margin-top: 30px;
 }
+
+.lista-servicos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+   
+  .lista-servico {
+    width: 300px;
+    margin: 10px;
+ 
+  }
+  
+  .lista-servico .anuncio{
+    padding: 50px;
+  }
+
+  .lista-servico .img{
+    width: 100%;
+    height: auto;
+  }
+   
+  .secaocategoria {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    width: 300px;
+  }
+   
+   
+  .secaocategoria input[type="checkbox"] {
+    margin-bottom: 10px;
+  }
+   
+  body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+   
+   
+  .container-servico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  
+ .bloco-servicos{
+    display: flex;
+ }  
